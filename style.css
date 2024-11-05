@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-titulo:"Kanit", sans-serif;
+    --fonte-texto:"Itim", cursive;
+    --cor1: #5465ffff;
+    --cor2: #788bffff;
+    --cor3: #9bb1ffff;
+    --cor4: #bfd7ffff;
+    --cor5: #e2fdffff;
+    --cor6: #f1f1f1;
+    --cor7: #0000;
+}
+
+body{
+    background-color: var(--cor1);
+    font-family: var(--fonte-texto);
+}
+
+header, footer{
+    background-color: var(--cor2);
+    padding: 2em;
+    color:var(--cor6);
+    text-align: center;
+    font-family: var(--fonte -titulo);
+    font-size: 1.5em;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer a{
+    text-decoration: none;
+    color: var(--cor1);
+}
